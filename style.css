@@ -1,0 +1,134 @@
+body
+{
+    background-color: lightslategray;
+    background-image: url(stopwatch.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+
+.stopwatch
+{
+    display: flex;
+    border: 2px solid  rgb(38, 0, 255);
+    width: 800px;
+    margin-left: 35px;
+    background: transparent;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+#sw-head
+{
+    color: rgb(38, 0, 255);
+    margin: none;
+    padding: none;
+    border: none;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 10px;
+}
+
+.sw-break
+{
+    margin-top: 50px;
+}
+
+.sw-footer
+{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(38, 0, 255);
+}
+
+.footer-prop
+{
+    background-color: none;
+}
+
+
+.oper-mem
+{
+    height: 30px;
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+#sw-input
+{
+    height: 50px;
+    font-size: xx-large;
+    text-align: end;
+    background-color: ghostwhite;
+    border: 3px solid lightblue;
+}
+
+.gen-output
+{
+    font-size: 6em;
+    font-weight: bolder;
+    color: rgb(38, 0, 255);
+    background-color: none;
+    width: auto;
+    margin-top: 2px;
+    pointer-events: none;
+}
+
+.gen-output-sw
+{
+    margin-top: 5px;
+    justify-content: space-around;
+}
+
+.gen-button
+{
+    font-size: 2em;
+    color: rgb(38, 0, 255);
+    width: auto;
+    margin-top: 2px;
+}
+
+.gen-button:focus
+{
+    border: none !important;
+    outline: none !important;
+}
+
+.gen-button-sw
+{
+    justify-content: space-around;
+}
+
+.lap
+{
+    display: flex;
+    border: 2px solid  rgb(38, 0, 255);
+    width: 500px;
+    height: 200px;
+    margin-left: 35px;
+    background: transparent;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+#lap-prop
+{
+    color: rgb(38, 0, 255);
+    margin: none;
+    padding: none;
+    border: none;
+    text-align: center;
+    font-size: 3em;
+}
+
+#laps-data
+{
+    color: rgb(38, 0, 255);
+    margin: none;
+    padding: none;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+}
